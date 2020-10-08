@@ -1,0 +1,152 @@
+﻿body {
+    text-align: center;
+    background-color: #e0e286;
+    font-family: 'Segoe UI';
+    border-image: round;
+    border-image-width: 100%;
+    font-size: 90%;
+}
+
+#name {
+    color: black;
+    background-color: goldenrod;
+    position: center;
+    font-size: 400%;
+    font-family: Calibri;
+    border-left-style: double;
+    border-right-style: double;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+.main {
+    border-color: black;
+    border-width: 4px;
+}
+
+hr {
+    border-color: #6c6565;
+    border-width: 2px;
+}
+
+h1 {
+    color: #CD853F;
+    font-family: Calibri;
+    font-size: 26px;
+    text-shadow: 2px 0.5px white;
+}
+
+#h1p {
+    text-shadow: unset;
+    font-size: 22px;
+}
+
+#myP {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+#Lastword {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size:20px;
+    text-decoration: underline;
+}
+
+p.Emojis {
+    font-size: 200%;
+}
+
+#moreD {
+    margin: auto;
+    width: 80%;
+    height: 300%;
+    border:solid;
+    text-align: center;
+    border-color: brown;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #e07b0a;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: grabbing;
+}
+
+a:hover, a:active {
+    background-color: #e07b0a;
+    color: white;
+}
+
+ul {
+    background: goldenrod;
+    padding: 20px;
+}
+
+ul li {
+        background: #e2c3a5;
+        margin: 5px;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+        opacity: 1.0;
+}
+
+div.gallery {
+    margin: 12px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+ div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin:auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #e2c3a5;
+    text-align: center;
+}
+
+th {
+    background-color: #CD853F;
+    color: white;
+    text-align: center;
+}
+
+
